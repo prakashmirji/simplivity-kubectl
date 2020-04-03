@@ -24,10 +24,10 @@ fi
 # optional argument handling
 if [[ "$1" == "hosts" ]]
 then
-    echo "List of VMs"
+    echo "List of Hosts"
     # this binary is in /usr/lobal/bin
     svt-hosts
     exit 0
-
+fi
 
 echo "I am a plugin named kubectl-svt for hpe simplivity"
