@@ -34,18 +34,21 @@ move the kubectl-svt to /usr/local/bin
 ```
 
 Then move the binaries you built in the preivous step to the /usr/local/bin or $PATH
-    ```
+
+```
     sudo mv svt-vms svt-hosts /usr/local/bin
-    ```
+```
 
 ### How to test
 Note: Assuming you are having access to kubernetes cluster and kubectl client before running below command
 
 Run below kubectl command
+
 To get list of VMs managed by simplivity cluster
-    ```
+
+```
     kubectl svt vms
-    ```
+```
 
 You should output like below ( sample )
 ```
@@ -80,9 +83,10 @@ UbuntuDebug
 
 
 To get list of Hosts managed by simplivity cluster
-    ```
+
+```
     kubectl svt hosts
-    ```
+```
 
 You should output like below ( sample)
 ```
@@ -97,6 +101,7 @@ Get all Hosts without params
 
 ### Contribuitions
 Contributions and feedback is welcome
+
 If you have feedback, please email me at prakash-r.mirji@hpe.com or create an issues in git repo
 
 
