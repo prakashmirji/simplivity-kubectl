@@ -7,8 +7,8 @@ import (
 
 func main() {
 	var (
-		userName    = "usradmin@v0004.local"
-		password    = "HP!nvent123"
+		userName    = "username"
+		password    = "password"
 		hostAddress = "10.3.4.72"
 	)
 

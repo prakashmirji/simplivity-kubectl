@@ -7,15 +7,14 @@ import (
 )
 
 func main() {
-	/*
-		var (
-			hostName   = "OmniStackVC-10-3-4-72"
-			hostByName *ovc.Host
-		)
-	*/
+	var (
+		userName    = "username"
+		password    = "password"
+		hostAddress = "10.3.4.72"
+	)
 
-	//Create an ovc client
-	client, err := ovc.NewClient("usradmin@v0004.local", "HP!nvent123", "10.3.4.72", "")
+	client, err := ovc.NewClient(userName, password, hostAddress, "")
+
 	if err != nil {
 		fmt.Println(err)
 	}

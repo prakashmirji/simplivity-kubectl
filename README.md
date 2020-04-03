@@ -13,11 +13,12 @@ This plugin is basic initial version. It currently supports two arguments to get
 Note: Code can be improved and modified to suite the actual needs. Currently this repo show cases the plugin functionality.
 
 Step 1:
-checkout the source repo
-Edit the vms.go and hosts.go to pass simplivity cluster credentials
-    username
-    password
-    ip/hostname
+
+    checkout the source repo
+    Edit the vms.go and hosts.go to pass simplivity cluster credentials
+        username
+        password
+        ip/hostname
 
 ```cd simplivity-kubectl
     go build -o svt-vms ./vms.go
